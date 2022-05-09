@@ -1,0 +1,46 @@
+section.gerador{
+    .criar-senha{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.3rem;
+        .box-gerador{
+            .box-tamanho{
+                width: 60px;
+                height: 30px;
+                background: #eee;
+                border: 1px solid $primary;
+                border-radius: 7px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        label{
+            transition: 0.4s;
+            color: rgba(black, 0.6);
+        }
+        button{
+            display: block;
+            min-width: 150px;
+            border: 2px solid $primary;
+            color: $primary;
+            background: rgba(0, 0, 0, 0);
+            font-weight: bold;
+            border-radius: 7px;
+            margin: 0 auto;
+            padding: 10px;
+            transition-duration: $tempo-transicao;
+            font-size: 1.3rem;
+            &:hover, &:focus{
+                color: $background;
+                background: $primary;
+                transition-duration: $tempo-transicao;
+                outline: none;
+            }
+            &:active{
+                position: relative;
+                top: -1px;
+            }
+        }
+    }
+}

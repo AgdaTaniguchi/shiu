@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gerador de senhas - Shiu!</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Logo</a></li>
+                    <div class="links">
+                        <li><a href="index.html">Página inicial</a></li>
+                        <li id="pagina-atual"><a href="gerador.html">Gerador de senhas</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="gerador">
+                <h1>Gerador de senhas</h1>
+                <div class="criar-senha">
+                    <div class="box-gerador">
+                        <label for="tamanho">Tamanho da senha:</label>
+                        <input type="range" id="tamanho">
+                        <div class="box-tamanho">5</div>
+                    </div>
+                    <div class="box-gerador">
+                        <label for="letras_maiusculas">Letras maiúsculas:</label>
+                        <input type="checkbox" id="letras_maiusculas">
+                    </div>
+                    <div class="box-gerador">
+                        <label for="letras_minusculas">Letras minúsculas:</label>
+                        <input type="checkbox" id="letras_minusculas">
+                    </div>
+                    <div class="box-gerador">
+                        <label for="numeros">Números:</label>
+                        <input type="checkbox" id="numeros">
+                    </div>
+                    <div class="box-gerador">
+                        <label for="simbolos">Símbolos:</label>
+                        <input type="checkbox" id="simbolos">
+                    </div>
+                    <button>Gerar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Página desenvolvida por <a href="https://github.com/AgdaTaniguchi" target="_blank">Agda Taniguchi</a></p>
+        </footer>
+    </body>
+</html>

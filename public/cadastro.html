@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro - Shiu!</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Logo</a></li>
+                    <div class="links">
+                        <li><a href="index.html">Página inicial</a></li>
+                        <li><a href="gerador.html">Gerador de senhas</a></li>
+                        <li><a href="login">Login</a></li>
+                        <li id="pagina-atual"><a href="cadastro.html">Cadastro</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="cadastro">
+                <div class="esquerda">
+                    <form method="POST" autocomplete="off">
+                        <h1>Cadastre-se aqui!</h1>
+                        <div class="formulario">
+                            <div class="box">
+                                <input type="text" id="nome">
+                                <label for="nome">Nome</label>
+                            </div>
+                            
+                            <div class="box">
+                                <input type="password" id="senha">
+                                <label for="senha">Senha</label>
+                            </div>
+                            
+                            <div class="box">
+                                <input type="email" id="email">
+                                <label for="email">E-mail</label>
+                            </div>
+                            
+                            <div class="box">
+                                <input type="text" id="celular">
+                                <label for="celular">Celular</label>
+                            </div>
+                            <button onclick="cadastrar()">Cadastrar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="direita">
+                    <img src="./images/cadastro.png">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Página desenvolvida por <a href="https://github.com/AgdaTaniguchi" target="_blank">Agda Taniguchi</a></p>
+
+            <p>
+                <a href="https://iconscout.com/illustrations/concept" target="_blank">Concept of data Privacy And Policy Illustration</a> by <a href="https://iconscout.com/contributors/delesign">Delesign Graphics</a> on <a href="https://iconscout.com">Iconscout</a>
+            </p>
+        </footer>
+    </body>
+</html>
+
+<script src="./js/jquery.js"></script>
+<script src="./js/formulario.js"></script>
+
+<script>
+    function cadastrar(){
+
+    }
+</script>

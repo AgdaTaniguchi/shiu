@@ -1,0 +1,23 @@
+section.cadastro{
+    height: 100%;
+    display: flex;
+    h1{
+        margin-bottom: 40px;
+    }
+    .esquerda{
+        width: 60%;
+    }
+    .direita{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }
+    .formulario{
+        .box{
+            margin: 25px 0;
+        }
+    }
+}
